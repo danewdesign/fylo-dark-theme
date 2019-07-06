@@ -272,6 +272,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /********************* Media Queries for Mobile ********************/
+@media (min-width: 1347px) {
+  .bg-quotes {top: 2383px;}
+  .the-pitch h2 {width: 65%;}
+  .cta-block p {margin: 0 auto 35px auto; width: 90%}
+}
+
 @media (max-width: 1117px) {
   .cta-block p {margin: auto auto 35px auto; width: 85%;}
 }
