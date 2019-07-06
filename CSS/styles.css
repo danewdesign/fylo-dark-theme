@@ -1,0 +1,338 @@
+body {
+  background-color: hsl(218, 28%, 13%);
+  color: #8f8f8f;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/********************* Title Section *********************/
+#title {
+  background-color: hsl(217, 28%, 15%);
+  padding: 3%;
+  text-align: center;
+}
+
+.img-logo {
+  max-width: 80%;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.intro-container {
+  padding: 5% 15%;
+  position: relative;
+}
+
+.intro-image {
+  margin-bottom: 50px;
+}
+
+.img-intro {
+  max-width: 100%;
+}
+
+.intro-pitch p {
+  margin: 25px auto;
+  width: 59%;
+}
+
+.get-started {
+  border-radius: 25px;
+  padding: .5rem 3.5rem;
+}
+
+.desktop-curvy-bg-container {
+  left: 0;
+  position: absolute;
+  top: 760px;
+}
+
+.img-desktop-bg {
+  max-width: 100vw;
+}
+
+.mobile-curvy-bg-container {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 555px;
+}
+
+.img-mobile-bg {
+  width: 100vw;
+}
+
+/************************ Features Section ***********************/
+#features {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.individual-features {
+  padding: 3%;
+}
+
+.individual-features p {
+  font-size: 0.9rem;
+  margin: auto;
+  width: 90%;
+}
+
+.img-features {
+  margin-bottom: 25px;
+}
+
+.img-security-feature {
+  margin-bottom: 15px;
+}
+
+.img-any-file-feature {
+  margin-bottom: 30px;
+}
+
+/************************* Sales Pitch Section **********************/
+#sales-pitch {
+  padding: 3%;
+}
+
+.sp-image-container {
+  text-align: center;
+}
+
+.img-stay-productive {
+  max-width: 90%;
+}
+
+.the-pitch {
+  align-self: center;
+}
+
+.the-pitch h2 {
+  width: 71%;
+}
+
+.the-pitch a {
+  color: hsl(176, 68%, 64%);
+}
+
+/*********************** Testimonials Section ***********************/
+#testimonials {
+  padding: 10% 10% 6%;
+}
+
+.bg-quotes {
+  position: absolute;
+  top: 2310px;
+}
+
+.testimonial-card {
+  background-color: hsl(219, 30%, 18%);
+  font-size: 0.8rem;
+}
+
+.testimonial-column {
+  margin-bottom: 15px;
+}
+
+.img-profiles {
+  border-radius: 100%;
+  max-width: 80%;
+}
+
+.pic-n-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-pic {
+  width: 20%;
+}
+
+.profile-title h6 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.profile-title p {
+  font-size: 0.6rem;
+}
+
+/********************* Call To Action Section *********************/
+#cta {
+  background: linear-gradient(to top, hsl(216, 53%, 9%) 0%, hsl(216, 53%, 9%) 50%, hsl(218, 28%, 13%) 50%, hsl(218, 28%, 13%) 100%);
+  padding: 5% 18%;
+  text-align: center;
+}
+
+.cta-block {
+  background-color: hsl(217, 28%, 15%);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 6% 0;
+}
+
+.cta-block h4 {
+  margin-bottom: 20px;
+}
+
+.cta-block p {
+  margin-bottom: 35px;
+}
+
+.input {
+  border: 1px solid transparent;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  margin-right: 25px;
+  padding: .6rem 0 .6rem 1.5rem;
+  width: 50%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.cta-block a {
+  font-size: 1rem;
+  padding: .6rem 2rem;
+}
+
+.get-started2 {
+  border-radius: 25px;
+  padding: .5rem 3.5rem;
+}
+
+/************************* Footer Section ************************/
+#footer {
+  background-color: hsl(216, 53%, 9%);
+  font-size: 0.8rem;
+  padding: 1% 0 5% 7%;
+}
+
+.logo-image {
+  margin: 0 0 25px 15px;
+}
+
+.img-footer-location-icon {
+  margin-right: 25px;
+  width: 45%;
+}
+
+.img-footer-icons {
+  margin-right: 10px;
+  width: 5%;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+}
+
+.location p {
+  width: 80%;
+}
+
+.footer-links {
+  color: #8f8f8f;
+  display: table;
+  padding-bottom: 10px;
+}
+
+.footer-links:hover {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.social-div {
+  text-align: left;
+}
+
+.social-icons {
+  border: 1px solid;
+  border-radius: 50%;
+  color: #8f8f8f;
+  margin-right: 20px;
+  padding: 2px 5px;
+}
+
+.social-icons:hover {
+  color: #8f8f8f;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+/********************* Media Queries for Mobile ********************/
+@media (max-width: 1117px) {
+  .cta-block p {margin: auto auto 35px auto; width: 85%;}
+}
+
+@media (max-width: 992px) {
+  .intro-pitch p {width: 100%;}
+  .desktop-curvy-bg-container {top: 700px;}
+  .get-started {width: 55%;}
+  .bg-quotes {top: 2035px;}
+  .testimonial-card-b p {margin: auto auto 10px auto; width: 75%;}
+  .pic-n-name {margin: auto; width: 75%;}
+  .profile-title h6 {margin: 10px auto 5px 14px;}
+  .logo-image {margin: 0 0 25px 0;}
+  .location {margin-bottom: 45px;}
+}
+
+@media (max-width: 768px) {
+  .img-logo {max-width: 70%;}
+  .desktop-curvy-bg-container {top: 620px;}
+  .intro-pitch h1 {font-size: 2rem;}
+  .get-started {width: 70%;}
+  #features {padding: 10% 15%;}
+  .individual-features {padding: 8% 3%;}
+  .sp-image-container {margin-bottom: 70px;}
+  .the-pitch {margin: auto; width: 75%;}
+  .the-pitch h2 {font-size: 1.5rem; width: 100%;}
+  .testimonial-column {margin-bottom: 25px;}
+  .testimonial-card-b p {width: 100%;}
+  .pic-n-name {width: 100%;}
+  .profile-title h6 {margin: 25px auto 5px auto;}
+  .bg-quotes {top: 2870px;}
+  #cta {padding: 5% 10%;}
+  .input {margin: 0 auto 25px auto; width: 75%;}
+  .get-started2 {width: 75%;}
+  .footer-links {display: inline-block; padding: 0 15px 50px 0;}
+  .social-div {text-align: center;}
+}
+
+@media (max-width: 576px) {
+  .intro-container {padding: 10% 11% 5%;}
+  .desktop-curvy-bg-container {display: none;}
+  .mobile-curvy-bg-container {display: block;}
+  .intro-pitch h1 {font-size: 1.5rem; margin: auto; width: 90%;}
+  .the-pitch {width: 81%;}
+  #testimonials {padding: 25% 10% 20%;}
+  .bg-quotes {top: 2703px;}
+  .img-quotes {max-width: 90%;}
+  .profile-title h6 {margin: 15px auto 5px auto;}
+  #cta {padding: 5%;}
+  .logo-image {margin: 50px 0 25px 0;}
+  .location {margin-bottom: 0;}
+  .location p {width: 100%;}
+  .img-footer-icons {width: 3%;}
+  .contact {margin-bottom: 50px;}
+  .footer-links-group1 {text-align: center;}
+  .footer-links-group2 {margin-bottom: 30px; text-align: center;}
+  .footer-links {padding: 0 15px 50px;}
+}
+
+@media (max-width: 500px) {
+  .mobile-curvy-bg-container {top: 590px;}
+  #features {padding: 10%}
+  .bg-quotes {top: 2655px;}
+}
