@@ -307,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .img-logo {max-width: 70%;}
-  .desktop-curvy-bg-container {top: 620px;}
+  .desktop-curvy-bg-container {top: 625px;}
   .intro-pitch h1 {font-size: 2rem;}
   .get-started {width: 70%;}
   #features {padding: 10% 15%;}
