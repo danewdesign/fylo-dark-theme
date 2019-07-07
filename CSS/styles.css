@@ -299,7 +299,8 @@ h1, h2, h3, h4, h5, h6 {
   .bg-quotes {top: 2035px;}
   .testimonial-card-b p {margin: auto auto 10px auto; width: 75%;}
   .pic-n-name {margin: auto; width: 75%;}
-  .profile-title-ib h6 {margin: 10px auto 5px 17px;}
+  .profile-title-ib h6 {margin: 25px auto 5px 13px;}
+  .profile-title-ib p {font-size:0.6rem;}
   .logo-image {margin: 0 0 25px 0;}
   .location {margin-bottom: 45px;}
 }
@@ -318,6 +319,8 @@ h1, h2, h3, h4, h5, h6 {
   .testimonial-card-b p {width: 100%;}
   .pic-n-name {width: 100%;}
   .profile-title h6 {margin: 25px auto 5px auto;}
+  .profile-title-ib h6 {25px auto 5px 0;}
+  .profile-title-ib p {font-size: 0.6rem;}
   .bg-quotes {top: 2870px;}
   #cta {padding: 5% 10%;}
   .input {margin: 0 auto 25px auto; width: 75%;}
