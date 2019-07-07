@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
   .testimonial-card-b p {width: 100%;}
   .pic-n-name {width: 100%;}
   .profile-title h6 {margin: 25px auto 5px auto;}
-  .profile-title-ib h6 {25px auto 5px 0;}
+  .profile-title-ib h6 {margin: 25px auto 5px 0;}
   .profile-title-ib p {font-size: 0.6rem;}
   .bg-quotes {top: 2870px;}
   #cta {padding: 5% 10%;}
