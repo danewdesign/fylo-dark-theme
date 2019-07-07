@@ -271,6 +271,10 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.social-icons-f {
+  padding: 2px 7px;
+}
+
 /********************* Media Queries for Mobile ********************/
 @media (min-width: 1347px) {
   .bg-quotes {top: 2383px;}
