@@ -351,14 +351,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 500px) {
-  .mobile-curvy-bg-container {top: 590px;}
+  .mobile-curvy-bg-container {top: 580px;}
   #features {padding: 10%}
   .bg-quotes {top: 2655px;}
 }
 
 @media (max-width: 447px) {
   .get-started {font-size: 1rem; width: 100%;}
-  .bg-quotes {top: 2641px;}
+  .bg-quotes {top: 2593px;}
 }
 
 
