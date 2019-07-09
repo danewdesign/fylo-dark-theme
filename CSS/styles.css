@@ -307,7 +307,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .img-logo {max-width: 70%;}
-  .desktop-curvy-bg-container {top: 625px;}
+  .desktop-curvy-bg-container {top: 635px;}
   .intro-pitch h1 {font-size: 2rem;}
   .get-started {width: 70%;}
   #features {padding: 10% 15%;}
@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
   .profile-title h6 {margin: 25px auto 5px auto;}
   .profile-title-ib h6 {margin: 25px auto 5px 0;}
   .profile-title-ib p {font-size: 0.6rem;}
-  .bg-quotes {top: 2870px;}
+  .bg-quotes {top: 2905px;}
   #cta {padding: 5% 10%;}
   .input {margin: 0 auto 25px auto; width: 75%;}
   .get-started2 {width: 75%;}
@@ -332,11 +332,11 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 576px) {
   .intro-container {padding: 10% 11% 5%;}
   .desktop-curvy-bg-container {display: none;}
-  .mobile-curvy-bg-container {display: block;}
+  .mobile-curvy-bg-container {display: block; top: 570px;}
   .intro-pitch h1 {font-size: 1.5rem; margin: auto; width: 90%;}
   .the-pitch {width: 81%;}
   #testimonials {padding: 25% 10% 20%;}
-  .bg-quotes {top: 2703px;}
+  .bg-quotes {top: 2743px;}
   .img-quotes {max-width: 90%;}
   .profile-title h6 {margin: 15px auto 5px auto;}
   #cta {padding: 5%;}
